@@ -17,3 +17,7 @@ The value of a performance budget is that it provides a framework for discussion
 When loading styles onto a webpage, there are two questions to ask yourself and your answers will be based on your strategic approach and purpose of the webpage: 1. Is it better to lazy-load styles for breakpoints other than the current one? 2. Or should we rather load all the styles in one go?
 
 One strategic approach is to set a total page size. Having a pre-defined ‘budget’ is a clear, tangible way to frame decisions about what can and can’t be included, and at a suitably early stage in the project. It can also potentially provide some justification to the client about why certain things have been omitted (or rather, swapped out for something else).
+
+The most effective way to build high quality responsive sites is to ensure tight collaboration between a UX designer, visual designer and developer, to prototype early and go through small, quick iterations as a team to refine individual components and layouts.
+
+start from a simplified set of factors and values and build from there. Page weight, the size of a web page in kilobytes including all retrieved assets (styles, scripts, images, videos, etc.), and number of HTTP requests (a request made by the user’s browser to retrieve files needed for the site) seemed like the most likely suspects to be factors in affecting a web page’s performance.
